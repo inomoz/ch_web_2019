@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Landing Page v5.0.0 (https://startbootstrap.com/template-overviews/landing-page)
- * Copyright 2013-2018 Start Bootstrap
+ * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)
  */
 
@@ -936,6 +936,114 @@ header.masthead .btn {
   .workouts {
     padding-top: 15rem;
     padding-bottom: 11rem;
+  }
+}
+
+.social-icons > .list-inline-item > a {
+  display: inline-block;
+  background-color: #C4C4C4;
+  padding: 1.4rem;
+  border-radius: 50%;
+  -webkit-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+.social-icons > .list-inline-item > a .icon {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+}
+
+.social-icons > .list-inline-item > a.is-youtube {
+  padding: 1.1rem;
+}
+
+.social-icons > .list-inline-item > a.is-youtube .icon {
+  width: 2.6rem;
+  height: 2.6rem;
+}
+
+.social-icons > .list-inline-item > a:hover, .social-icons > .list-inline-item > a:focus {
+  background-color: #6600FF;
+}
+
+@media (max-width: 991.98px) {
+  .social-icons > .list-inline-item > a {
+    padding: 1rem;
+  }
+  .social-icons > .list-inline-item > a.is-youtube {
+    padding: .9rem;
+  }
+}
+
+.social-icons > .list-inline-item:not(:last-child) {
+  margin-right: 3.3rem;
+}
+
+@media (max-width: 991.98px) {
+  .social-icons > .list-inline-item:not(:last-child) {
+    margin-right: 2rem;
+  }
+}
+
+.subscribe-input .form-control {
+  padding: 2.4rem;
+  font-size: 1.5rem;
+}
+
+.subscribe-input .input-group-append > .btn {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.vi-footer .h4 {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  padding: .5rem 1rem;
+}
+
+@media (min-width: 768px) {
+  .vi-footer {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+  }
+}
+
+.vi-footer .form-elements .input-group,
+.vi-footer .form-elements .list-inline {
+  padding: .5rem 1rem;
+}
+
+.nav-footer {
+  clear: both;
+}
+
+.nav-footer a {
+  font-size: 1.3rem;
+  color: #343434;
+}
+
+.nav-footer.is-last .nav-item {
+  width: 100%;
+}
+
+@media (max-width: 767.98px) {
+  .nav-footer.is-last {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .nav-footer.is-last .nav-item:nth-of-type(1),
+  .nav-footer.is-last .nav-item:nth-of-type(2) {
+    display: none;
+  }
+  .nav-footer.is-last .nav-item {
+    width: 50%;
+    float: left;
+    display: block;
   }
 }
 
